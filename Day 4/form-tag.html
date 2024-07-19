@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../Day 12/response.html" method="post">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <label for="firstname">Firstname:&nbsp;</label>
+            <input type="text" id="firstname" required placeholder="Enter your firstname" ><br><br>
+
+            <label for="lastname">Lastname:&nbsp;</label>
+            <input type="text" id="lastname" required placeholder="Enter your lastname"><br><br>
+
+            <label for="username">Username:&nbsp;</label>
+            <input type="text" id="username" required placeholder="Enter your username"><br><br>
+
+            <label for="password">Password:&nbsp;</label>
+            <input type="password" id="password" required placeholder="Enter password"><br><br>
+
+            <label for="confirm">Confirm Password:&nbsp;</label>
+            <input type="password" id="confirm" required placeholder="Confirm your password"><br><br>
+            
+            <label for="number">Mobile Number:&nbsp;</label>
+            <input type="tel" id="number" required pattern="[6-9]\d{9}"><br><br>
+
+            <label for="">Gender:&nbsp;</label>
+            <input type="radio" id="male" name="male" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="female" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="resume" >Upload Resume:&nbsp;</label>
+            <input type="file" id="resume" pattern=".pdf,.docx"><br><br>
+
+            <label><b>State:</b>&nbsp;</label><br>
+            <input type="checkbox" id="ts" name="ts " value="TELANGANA">
+            <label for="ts">TELANGANA</label><br>
+            <input type="checkbox" id="ap" name="ap " value="ANDHRA PRADESH">
+            <label for="ap">ANDHRA PRADESH</label><br>
+            <input type="checkbox" id="mh" name="mh " value="MAHARASTRA">
+            <label for="mh">MAHARASTRA</label><br>
+            <input type="checkbox" id="kar" name="kar " value="KARNATAKA">
+            <label for="kar">KARNATAKA</label><br><br>
+
+            <input type="submit" value="Register">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
